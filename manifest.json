@@ -1,0 +1,26 @@
+{
+    "name": "KryptoLectures",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Bookmark link that allows the user to save and open thier Zoom and other classes lectures link on time.",
+    "default_locale": "en",
+    "browser_action": {
+        "default_title": "KryptoLectures",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "chrome://favicon/",
+        "clipboardRead",
+        "clipboardWrite",
+        "contentSettings",
+        "contextMenus",
+        "cookies",
+        "idle",
+        "management",
+        "notifications",
+        "tabs",
+        "background",
+        "alarms",
+        "storage"
+    ]
+}
